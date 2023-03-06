@@ -9,14 +9,14 @@ int b = number % 10;
 
 if (a > b)
 {
-    Console.WriteLine("Первая цифра больше второй");
+    Console.WriteLine($"Первая цифра больше второй {a} > {b}");
 }
 else if (b > a)
 {
-    Console.WriteLine("Вторя цифра больше первой");
+    Console.WriteLine("Вторя цифра больше первой {a} < {b}");
 }
 else
-    Console.WriteLine("Цифры равны");
+    Console.WriteLine("Цифры равны {a} == {b}");
 
 // Console.WriteLine("Text example" + a);
 // Console.WriteLine("Text {0} example {1}", a, b);
